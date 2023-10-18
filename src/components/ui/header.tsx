@@ -1,6 +1,6 @@
 import { HomeIcon, ListOrderedIcon, LogInIcon, MenuIcon, PercentIcon, ShoppingCartIcon } from 'lucide-react'
 import { Button } from './button'
-import { Card } from "./card"
+import { Card } from './card'
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from './sheet'
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
             Menu
           </SheetHeader>
 
-          <div className="mt-2 flex flex-col gap-3">
+          <div className='mt-2 flex flex-col gap-3'>
             <Button variant='outline' className='w-full justify-start gap-1'>
               <LogInIcon size={16} /> 
               Fazer Login
